@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentina Pupic — Tech & Conversation Hour</title>
+  <meta name="description" content="Valentina Pupic offers a weekly Tech & Conversation Hour bringing companionship and simple technology help to seniors. Intergenerational connection through technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="wordmark" href="#top">Valentina&nbsp;Pupic</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primaryNav" class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#program">The Program</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+  <section id="hero" class="hero">
+    <div class="container hero__inner">
+      <p class="eyebrow">Friendly student volunteer</p>
+      <h1 class="hero__title">Intergenerational connection through technology.</h1>
+      <p class="hero__lead">
+        A warm weekly visit that brings companionship, curiosity, and simple
+        technology help to seniors — one friendly hour at a time.
+      </p>
+      <a class="btn btn--primary" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="section-alt">
+    <div class="container about">
+      <div class="about__photo">
+        <!-- Replace src with assets/valentina.jpg once available -->
+        <img src="assets/valentina-placeholder.svg" alt="Valentina Pupic" width="480" height="560" />
+      </div>
+      <div class="about__text">
+        <h2>Hi, I'm Valentina.</h2>
+        <p>
+          I'm an incoming Nutrition student at the University of Guelph, and I love
+          helping people feel connected and confident. I started the Tech &amp;
+          Conversation Hour because so many older adults have stories to share and
+          family they'd love to reach — and a little patient help with a phone or
+          tablet goes a long way.
+        </p>
+        <p>
+          Each visit is unhurried and friendly: a real conversation first, then
+          whatever simple technology help would brighten someone's week.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="program">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">The Tech &amp; Conversation Hour</p>
+        <h2>A friendly weekly visit, built around the resident.</h2>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <h3>What I offer</h3>
+          <ul class="ticks">
+            <li>One-hour weekly visits</li>
+            <li>Friendly conversation and companionship</li>
+            <li>Simple help with phones, tablets, photos, and video calls</li>
+            <li>Gentle, safe introductions to new technology</li>
+            <li>Patience, kindness, and consistency</li>
+          </ul>
+        </div>
+        <div class="card card--accent">
+          <h3>Ideal for residents who'd enjoy</h3>
+          <ul class="ticks">
+            <li>Social connection</li>
+            <li>Learning basic technology</li>
+            <li>Exploring family photos or video-calling loved ones</li>
+            <li>Trying something new in a low-pressure setting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="why">
+    <div class="container why__inner">
+      <h2>Why it matters</h2>
+      <p>
+        Loneliness is one of the quieter challenges of aging. A reliable, friendly
+        hour each week — sharing a conversation, reaching family on a screen,
+        learning something new — can make a real difference to how connected
+        someone feels. That's the whole idea: intergenerational connection through
+        technology.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section-alt">
+    <div class="container contact">
+      <header class="section-head">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Interested in a visit? Let's talk.</h2>
+        <p class="contact__note">
+          For Recreation, Life Enrichment, and Volunteer Coordinators — and for
+          families. Send a note and Valentina will reply by email.
+        </p>
+      </header>
+
+      <form id="contactForm" class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form__row">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="form__row">
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div class="form__row">
+          <label for="role">I'm a…</label>
+          <select id="role" name="role">
+            <option>Recreation / Life Enrichment / Volunteer Coordinator</option>
+            <option>Family member</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form__row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Send message</button>
+        <p id="formStatus" class="form__status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">Valentina Pupic</p>
+      <p class="site-footer__line">Available for retirement homes, seniors' residences, and community programs.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
