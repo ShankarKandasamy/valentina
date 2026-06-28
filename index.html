@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Valentina Pupic — Tech & Conversation Hour</title>
-  <meta name="description" content="Valentina Pupic offers a weekly Tech & Conversation Hour bringing companionship and simple technology help to seniors. Intergenerational connection through technology." />
+  <title>Valentina — Tech & Conversation Hour</title>
+  <meta name="description" content="Valentina offers a weekly Tech & Conversation Hour bringing companionship and simple technology help to seniors in retirement homes. Intergenerational connection through technology." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="wordmark" href="#top">Valentina&nbsp;Pupic</a>
+      <a class="wordmark" href="#top">Valentina</a>
       <button id="navToggle" class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="primaryNav">
         <span></span><span></span><span></span>
       </button>
@@ -42,7 +42,7 @@
     <div class="container about">
       <div class="about__photo">
         <!-- Replace src with assets/valentina.jpg once available -->
-        <img src="assets/valentina-placeholder.svg" alt="Valentina Pupic" width="480" height="560" />
+        <img src="assets/valentina-placeholder.svg" alt="Valentina" width="480" height="560" />
       </div>
       <div class="about__text">
         <h2>Hi, I'm Valentina.</h2>
@@ -110,12 +110,16 @@
         <p class="eyebrow">Get in touch</p>
         <h2>Interested in a visit? Let's talk.</h2>
         <p class="contact__note">
-          For Recreation, Life Enrichment, and Volunteer Coordinators — and for
-          families. Send a note and Valentina will reply by email.
+          For Recreation, Life Enrichment, and Volunteer Coordinators at
+          retirement homes — and for families who'd like to arrange a visit at a
+          parent's residence. Send a note and Valentina will reply by email.
         </p>
       </header>
 
-      <form id="contactForm" class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contactForm" class="form" action="https://formspree.io/f/mqevborw" method="POST">
+        <input type="hidden" name="_subject" value="New message from the Valentina website" />
+        <!-- Honeypot: bots fill this; humans never see it -->
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
         <div class="form__row">
           <label for="name">Your name</label>
           <input id="name" name="name" type="text" required autocomplete="name" />
@@ -145,8 +149,8 @@
 
   <footer class="site-footer">
     <div class="container site-footer__inner">
-      <p class="site-footer__brand">Valentina Pupic</p>
-      <p class="site-footer__line">Available for retirement homes, seniors' residences, and community programs.</p>
+      <p class="site-footer__brand">Valentina</p>
+      <p class="site-footer__line">Available for retirement homes and seniors' residences.</p>
     </div>
   </footer>
 
