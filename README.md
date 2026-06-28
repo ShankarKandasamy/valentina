@@ -2,9 +2,9 @@
 
 Single-page static site for the Tech & Conversation Hour program.
 
-The public site intentionally uses Valentina's first name only (no last name, no
-phone, no home address) and routes all contact through the form so replies come
-from a dedicated email rather than personal contact details.
+The public site uses Valentina's name (matching the valentinapupic.com domain) but
+intentionally omits phone and home address, routing all contact through the form so
+replies come from a dedicated email rather than personal contact details.
 
 ## Run locally
 Double-click `index.html`, or serve the folder:
