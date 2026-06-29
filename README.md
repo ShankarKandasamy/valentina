@@ -1,6 +1,6 @@
 # Valentina — Website
 
-Single-page static site for the Tech & Conversation Hour program.
+Single-page static site for Valentina's friendly student volunteer offering for seniors — conversation, companionship, and simple everyday help tailored to each resident.
 
 The public site uses Valentina's name (matching the valentinapupic.com domain) but
 intentionally omits phone and home address, routing all contact through the form so
